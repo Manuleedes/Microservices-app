@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body{
+        font-family: Arial, san-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        }
+        .container{
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .footer{
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+        text-align: centre;
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Order details</h1>
+    <p>Customer: <span th:text="{$customerName}"></span></p>
+    <p>Order ID: <span th:text="{$orderReference}"></span></p>
+    <table>
+        <thead>
+        <tr>
+            <th>Product name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${product}">
+            <td th:text="${product.name}"></td>
+            <td th:text="${product.quantity}"></td>
+            <td th:text="${product.price}"></td>
+
+
+        </tr>
+
+        </tbody>
+
+    </table>
+    <div class="footer">
+        <p>Total Amount: $<span  th:text="${totalAmount}"></span></p>
+        <p>Automated message!</p>
+        <p>&copy; 2024 LidiguSpring.</p>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>

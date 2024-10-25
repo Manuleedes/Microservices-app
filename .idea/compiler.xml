@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Order" />
+        <module name="Payment" />
+        <module name="Customer" />
+        <module name="Gateway" />
+        <module name="Discovery" />
+        <module name="Product" />
+        <module name="config-Server" />
+        <module name="Notification" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-Server" target="17" />
+      <module name="Customer" target="17" />
+      <module name="Discovery" target="17" />
+      <module name="Gateway" target="17" />
+      <module name="Notification" target="17" />
+      <module name="Order" target="17" />
+      <module name="Payment" target="17" />
+      <module name="Product" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Customer" options="-parameters" />
+      <module name="Discovery" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="Notification" options="-parameters" />
+      <module name="Order" options="-parameters" />
+      <module name="Payment" options="-parameters" />
+      <module name="Product" options="-parameters" />
+      <module name="config-Server" options="-parameters" />
+    </option>
+  </component>
+</project>

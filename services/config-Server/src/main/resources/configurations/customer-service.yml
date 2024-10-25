@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      username: Emmanuel Lidigu
+      password: Lidigu4182
+      host: localhost
+      port: 27017
+      database: customer
+      authentication-database: admin
+server:
+  port: 8089

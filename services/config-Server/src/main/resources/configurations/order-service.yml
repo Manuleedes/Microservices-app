@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order
+    username: emmanuel871
+    password: Leedes@12
+    driver-class-name: org.postgresql.Driver
+    jpa:
+      hibernate:
+        ddl-auto: update
+      database: postgresql
+      database-platform: org.hibernate.dialect.PostgresSQLDialect
+    kafka:
+      producer:
+        bootstrap-servers: localhost:9092
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+        properties:
+          spring.json.type.mapping: orderConfirmation:com.Lidigu.ecommerce.kafka.OrderConfirmation
+  server:
+    port: 8040
+  application:
+    config:
+      customer-url: http://localhost:8222/api/v1/customers
+      payment-url: http://localhost:8222/api/v1/payments
+      product-url: http://localhost:8222/api/v1/products
+

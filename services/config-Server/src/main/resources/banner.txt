@@ -1,0 +1,46 @@
+Manytools.org - logo
+Your online toolshed
+
+Hacker Tools
+ASCII banners
+Ascii Art converter
+ANSI Art converter
+Steganography
+Image to Byte array
+I HackerASCII banners
+Create ASCII text banners online
+
+Use this ‘Figlet’ web-interface to create ASCII text banners* in a variety of typefaces.
+(* banners with letters composed out of smaller ASCII characters).
+
+
+Banner text
+lidigu
+Font
+
+NV Script
+prevnextpick random
+Display info about selected font(close info)
+Horizontal spacing
+
+Normal
+Vertical spacing
+
+Normal
+Banner:(refresh preview)
+
+ ,dPYb,               8I
+ IP'`Yb               8I
+ I8  8I  gg           8I   gg
+ I8  8'  ""           8I   ""
+ I8 dP   gg     ,gggg,8I   gg     ,gggg,gg  gg      gg
+ I8dP    88    dP"  "Y8I   88    dP"  "Y8I  I8      8I
+ I8P     88   i8'    ,8I   88   i8'    ,8I  I8,    ,8I
+,d8b,_ _,88,_,d8,   ,d8b,_,88,_,d8,   ,d8I ,d8b,  ,d8b,
+8P'"Y888P""Y8P"Y8888P"`Y88P""Y8P"Y8888P"8888P'"Y88P"`Y8
+                                      ,d8I'
+                                    ,dP'8I
+                                   ,8"  8I
+                                   I8   8I
+                                   `8, ,8I
+         Coding guru                           `Y8P"    Spring boot

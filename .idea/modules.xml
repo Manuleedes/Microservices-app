@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/services/Customer/Customer.iml" filepath="$PROJECT_DIR$/services/Customer/Customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/Discovery/Discovery.iml" filepath="$PROJECT_DIR$/services/Discovery/Discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/E-microservices.iml" filepath="$PROJECT_DIR$/.idea/E-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/services/Gateway/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/Notification/Notification.iml" filepath="$PROJECT_DIR$/services/Notification/Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/Order/Order.iml" filepath="$PROJECT_DIR$/services/Order/Order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/Payment/Payment.iml" filepath="$PROJECT_DIR$/services/Payment/Payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/Product/Product.iml" filepath="$PROJECT_DIR$/services/Product/Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/services/config-Server/config-Server.iml" filepath="$PROJECT_DIR$/services/config-Server/config-Server.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: C:\Users\EMMANUEL\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\pgAdmin 4\\localhost:5430/product
+    username: postgres
+    password: Manu@12
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgresSQLDialect
+  flyway:
+    baseline-on-migrate: true
+    enabled: true
+    baseline-description: "init"
+    baseline-version: 0
+    user: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+server:
+  port: 8050
