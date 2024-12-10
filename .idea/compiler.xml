@@ -17,16 +17,6 @@
         <module name="Notification" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="config-Server" target="17" />
-      <module name="Customer" target="17" />
-      <module name="Discovery" target="17" />
-      <module name="Gateway" target="17" />
-      <module name="Notification" target="17" />
-      <module name="Order" target="17" />
-      <module name="Payment" target="17" />
-      <module name="Product" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
